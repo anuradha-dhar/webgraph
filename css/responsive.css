@@ -1,0 +1,228 @@
+/*1200px start*/
+@media (max-width:1199.5px){
+
+    /*parallax*/
+    .parallax:not(.parallax-main){
+        background-size: 50%;
+    }
+    .main-wrapper .red-card{
+        width: 100%;
+    }
+
+    /*number*/
+    .number-wrapper{
+        width: 100%;
+    }
+    .number-container{
+        height: 26vmin;
+        width: 26vmin;
+        font-size: 12px;
+    }
+
+    /*contact*/
+    .form-section{
+        padding: 4rem 1rem;
+    }
+    .contact .get-in-touch .card{
+        padding: 2rem 1rem;
+    }
+
+}
+/*1200px end*/
+
+
+/*992px start*/
+@media (max-width:991.5px){
+
+    /*navbar*/
+    .header .navbar-collapse{
+        padding:1.3rem;
+    }
+    .header .navbar-nav .nav-link{
+        padding: 0.5rem 0.5rem;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+
+    /*banner*/
+    .banner-wrapper{
+        margin-top: 4rem;
+        padding: 4rem 2rem;
+        min-height: 730px;
+    }
+
+    /*card*/ 
+    .main-wrapper .red-card{
+        left: -226px;
+    }
+    .main-wrapper .red-card.right{
+        right: -226px;
+    }
+
+    /*parallax*/
+    .parallax-main{
+        background-size: cover;
+    }
+
+    /*number*/
+    .number-wrapper{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 100px;
+    }
+    .number-container{
+        height: 26vmin;
+        width: 26vmin;
+        font-size: 12px;
+    }
+
+    /*contact*/
+    .contact .get-in-touch .card{
+        min-height: 200px;
+        padding: 5rem 1rem;
+    }
+
+}
+/*992px end*/
+
+
+/*768px start*/
+@media (max-width:767.5px){
+    body,
+    html{
+        font-size: 8px;
+    } 
+
+    /*banner*/
+    .banner-wrapper{
+        min-height: 550px;
+    }
+
+    /*card*/ 
+    .main-wrapper .red-card{
+        left: 5%;
+        width: 90%;
+    }
+    .main-wrapper .red-card.right{
+        right: 5%;
+        width: 90%;
+    }
+
+    /*parallax*/
+    .parallax:not(.parallax-main){
+        background-size: cover;
+    }
+    .parallax-1{
+        background-size: cover;
+    } 
+    
+    /*number*/
+    .number-wrapper{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 70px;
+    }
+    .number-container{
+        height: 30vmin;
+        font-size: 12px;
+    }
+
+    /*contact*/
+    .contact .get-in-touch .card{
+        min-height: 150px;
+        padding: 5rem 1rem;
+    }
+
+}
+/*768px end*/
+
+
+/*576px start*/
+@media (max-width:575.5px){
+    body,
+    html{
+        font-size: 7px;
+    }
+
+    /*parallax*/
+    .parallax.img2,
+    .parallax.img3,
+    .parallax.img4,
+    .parallax.img5{
+        height: 408px;
+    }
+    .main-wrapper{
+        margin-top: 35vh;
+    }
+
+    /*footer*/
+    .link-widget a img{
+        width: 30px;
+        height: 30px;
+    }
+
+    /*number*/
+    .number-wrapper{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 50px;
+    }
+    .number-container{
+        width: 100%;
+        height: 25vmin;
+        font-size: 8px;
+    }
+
+    /*contact*/
+    .contact .get-in-touch .card{
+        min-height: 100px;
+        padding: 4rem 1rem;
+    }
+    
+}
+/*576px end*/
+
+
+/*391px start*/
+@media (max-width:390.5px){
+    h1{
+        font-size: 27px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 21px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 13px;
+    }
+    h6{
+        font-size: 11px;
+    }
+    p{
+        font-size: 9px;
+    }
+
+    /*number*/
+    .number-wrapper{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 30px;
+    }
+    .number-container{
+        width: 100%;
+        height: 15vmin;
+        font-size: 5px;
+    }
+}
+/*391px end*/
+
+
